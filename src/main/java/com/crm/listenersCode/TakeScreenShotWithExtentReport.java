@@ -46,6 +46,7 @@ public class TakeScreenShotWithExtentReport extends BaseClassDws implements ITes
 	public void onTestSkipped(ITestResult result) {
 		test.log(Status.SKIP, "Your testcase has skipped");
 	}
+	
 
 	@Override
 	public void onStart(ITestContext context) {
